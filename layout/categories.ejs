@@ -1,9 +1,10 @@
+<!-- categories -->
 <!-- title -->
 <div class="page-header">
 	 <h1><i class="fa fa-folder"></i> <%= page.title %></h1>
 </div>
 
-<div class="row page"> 
+<div class="row page">
 
 	<% if (theme.widgets.length) { %>
 	<div class="col-md-9">
@@ -31,7 +32,7 @@
 	   	   	 <li class="listing-item"><a href="<%= config.root %><%= it.path %>" <% if (it.description) { %> title="<%= it.description %>" <% } %>><%= it.title %></a></li>
 		  <% } %>
 	   <% }); %>
-	   
+
 	   </ul>
 	<% }); %>
 	</ul>

@@ -1,3 +1,4 @@
+<!-- _partial/archive -->
 <%
    var title = '';
    if (page.category) title = page.category;
@@ -29,7 +30,7 @@
 	  <div class="mypage">
 	  <% page.posts.each(function(item){ %>
 	  <%- partial('post/title', {item: item, index: true}) %>
-	  <%- partial('post/entry', {item: item, index: true}) %>	  
+	  <%- partial('post/entry', {item: item, index: true}) %>
 	  <% }); %>
 	  </div>
 	  <div>
@@ -37,11 +38,11 @@
 	  <%- partial('index_pagination') %>
 	  </center>
 	  </div>
-	  
+
 	  <% } else { %>
 	  <!-- display as list -->
 	  <div class="archive">
-		<% page.posts.each(function(item){ %>		
+		<% page.posts.each(function(item){ %>
 		<%
 		   year = item.date.toDate().getFullYear();
 		   month = item.date.toDate().getMonth();
@@ -66,7 +67,7 @@
   <% } else { %>
   <span class="title"><a href="<%- config.root %><%- item.path %>" <% if (item.description) { %> title="<%= item.description %>" <% } %>><%= item.title %></a></span>
   <% } %>
-</li>			
+</li>
 <% }); %>
 </ul>
 </div>
@@ -77,4 +78,3 @@
 <% if (theme.widgets.length) { %>
 <%- partial('sidebar') %>
 <% } %>
-

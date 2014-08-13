@@ -1,3 +1,4 @@
+<!-- _partial/index -->
 <div class="row page">
 
 	<% if (theme.widgets.length) { %>
@@ -9,7 +10,7 @@
 		<%- partial('post/slogan') %>
 
 		<div class="mypage">
-		
+
 		<!-- title and entry -->
 		<% page.posts.each(function(item){ %>
 			<%- partial('post/title', {item: item, index: index}) %>
@@ -25,12 +26,12 @@
   		</center>
 		</div>
 
-		
-		
+
+
 	</div> <!-- col-md-9 -->
 
 	<% if (theme.widgets.length) { %>
 		<%- partial('sidebar') %>
 	<% } %>
-	
+
 </div> <!-- row-fluid -->
