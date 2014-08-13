@@ -65,7 +65,7 @@ body {
 
 .page, .post{
   line-height: 1.5em;
-  font-family: 'Open Sans',"Helvetica Neue", "Helvetica","Microsoft YaHei", "WenQuanYi Micro Hei",Arial, sans-serif;
+  font-family: "Helvetica","Helvetica Neue", "Microsoft YaHei", "WenQuanYi Micro Hei",Arial, sans-serif;
 }
 
 .page .more {
@@ -108,7 +108,7 @@ body {
 }
 
 .pagination a{
-  color:#555;  
+  color:#555;
 }
 
 
@@ -118,7 +118,7 @@ body {
 
 li i {
   margin-right: 5px;
-  margin-left: 5px;  
+  margin-left: 5px;
 }
 
 .listing-item {
@@ -175,11 +175,11 @@ li i {
 
 .widget {
   padding-bottom: 25px;
-  border-bottom: 1px solid #e0e0e0; 
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .tagcloud .entry{
-  width: 100%;  
+  width: 100%;
 }
 
 .archive-title:before {
@@ -284,7 +284,7 @@ img {
 
 .slogan{
   font-size: 1.2em;
-  color: #888;  
+  color: #888;
   display:block;
   margin-bottom: 1em;
 }
@@ -293,28 +293,28 @@ img {
    scroll to top
    ========================================================================== */
 
-#gotop{ 
-  display:block;  
-  width:36px; 
+#gotop{
+  display:block;
+  width:36px;
   height:36px;
-  position:fixed;  
-  bottom:40px;  
-  right:30px; 
+  position:fixed;
+  bottom:40px;
+  right:30px;
   border-radius:7px;
-  text-decoration:none;  
-  display:none;  
-  background-color:#999999;     
+  text-decoration:none;
+  display:none;
+  background-color:#999999;
 }
-#gotop span{ 
-  display:block; 
-  color:#dddddd; 
-} 
-#gotop span:hover{ 
-  color:#cccccc; 
-} 
-#gotop span{ 
-  font-size:24px; 
-  text-align:center; 
+#gotop span{
+  display:block;
+  color:#dddddd;
+}
+#gotop span:hover{
+  color:#cccccc;
+}
+#gotop span{
+  font-size:24px;
+  text-align:center;
 }
 
 /* =============================================================================
@@ -368,7 +368,7 @@ h4 {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
   border-top-left-radius: 6px;
-  border-top-right-radius: 6px;  
+  border-top-right-radius: 6px;
 }
 
 /* =============================================================================
@@ -398,7 +398,7 @@ h4 {
   border-top:3px solid #ccc;
   font-size: 1.9em;
   font-weight: normal;
-  font-family: 'PT Sans Narrow', '雅黑', '文泉驿微米黑', '黑体', sans-serif;
+/*  font-family: 'PT Sans Narrow', '雅黑', '文泉驿微米黑', '黑体', sans-serif; */
   background-color: #e5e5e5;
 }
 
@@ -409,7 +409,7 @@ h4 {
 .page h3.title span.date {
   position:absolute;
   right:5px;
-  font-size:0.7em;
+/*  font-size:0.7em; */
   color: #777;
 }
 
@@ -439,7 +439,7 @@ h4 {
   background: #eee;
   border:solid 1px #ccc;
 }
- 
+
 .toc .toc-title{
   font-weight:bold;
   font-size:125%
@@ -454,7 +454,7 @@ h4 {
 
 .toc-article li{
   margin-left:5px !important;
-  padding:0 !important  
+  padding:0 !important
 }
 
 .toc-article ol{
@@ -490,7 +490,7 @@ td {
 }
 
 /**
- * 
+ *
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
  *    contenteditable attribute is included anywhere else in the document.
@@ -516,4 +516,3 @@ td {
 .cf {
   *zoom: 1;
 }
-
