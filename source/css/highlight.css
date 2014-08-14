@@ -2,17 +2,17 @@
 
 /* highlight */
 
-pre, .highlight, .gist {  
+pre, .highlight, .gist {
   background: #333;
   margin: 0.5em 0;
   padding: 1em 2%;
   overflow: auto;
-  color: #ccc;  
+  color: #ccc;
   font-size: 14px;
   text-shadow: none;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  border-radius: 4px;  
+  border-radius: 4px;
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
@@ -25,7 +25,7 @@ code {
   padding: 0 5px;
   margin: 0 2px;
   font-size: 90%;
-  text-shadow: 0 1px #fff;  
+  text-shadow: 0 1px #fff;
   word-break: break-all;
   word-wrap: break-word;
   white-space: normal;
@@ -35,12 +35,12 @@ code {
   text-align: left;
   padding-right: 20px;
   width: 100%;
-  color: #666;  
+  color: #666;
 }
 
 pre,
 code {
-  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;  
+/*  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;  */
 }
 
 pre code {
@@ -58,19 +58,19 @@ pre code {
 
 .highlight table {
   margin: 0;
-  width: auto;  
+  width: auto;
 }
 
 .highlight td {
   border: none;
-  padding: 0;  
+  padding: 0;
 }
 
 /* gist */
 
 .container .gist .gist-file {
   border: none;
-  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;    
+/*  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace; */
   margin: 0;
 }
 .container .gist .gist-file .gist-data {
@@ -82,7 +82,7 @@ pre code {
   border: none;
   padding-right: 20px;
   color: #666;
-  text-align: left;  
+  text-align: left;
 }
 .container .gist .gist-file .gist-data .line-data {
   padding: 0 !important;

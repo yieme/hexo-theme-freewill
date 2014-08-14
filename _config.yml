@@ -20,26 +20,23 @@ menu:
 
 links:
   - title: Freemind
-    url: https://github.com/wzpan/freemind/
-    intro: "Freemind's Github repository."
+    url: https://github.com/yieme/freewill/
+    intro: "Freewill's Github repository."
     icon: "fa fa-github"
   - title: "My Github"
-    url: http://www.github.com/wzpan
+    url: http://www.github.com/yieme
     intro: "My Github account."
     icon: "fa fa-github"
-  - title: "My LinkedIn"
-    url: http://www.linkedin.com/pub/weizhou-pan/5b/8a0/161
-    intro: "My Linkin account."
-    icon: "fa fa-linkedin"
 
 widgets:
 - search
 - category
 - tagcloud
-- recent_posts  
+- recent_posts
 - links
 
-rss: 
+rss:
 fancybox: true
 favicon: favicon.png
-google_analytics: 
+bootswatch: cerulean
+google_analytics:
