@@ -5,12 +5,107 @@ A [Hexo](http://zespia.tw/hexo/) [bootstrap](http://getbootstrap.com) theme base
 ## Features
 
 * **Bootstrap** - get the power of Twitter Bootstrap with minimal hassle;
-* **Tag plugins** - luxuriant Bootstrap tag plugins, provided by [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap), including:
+* **Bootswatch** - get the ease of Bootswatch
+* **Tag plugins** - Bootstrap tag plugins by [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap), including:
   - textcolor - a paragraph of text with specified color;
   - button - a button with target links, text and specified color;
   - label - a label with text and specified color;
   - badge - a badge with text;
   - alert - alert messages with text and specified color;
+
+## Samples
+
+Edit **theme/freewill/_config.yml**
+
+### Normal Bootstrap (v3.2.0)
+
+```
+bootswatch:
+```
+
+![](source/img/example/bootstrap.png)
+
+
+### Bootswatch Cerulean (v3.2.0)
+
+```
+bootswatch: cerulean
+```
+
+![](source/img/example/cerulean.png)
+
+
+### Bootswatch Flatly (v3.2.0)
+
+```
+bootswatch: flatly
+```
+
+![](source/img/example/flatly.png)
+
+
+### Bootswatch Journal (v3.2.0)
+
+```
+bootswatch: journal
+```
+
+![](source/img/example/journal.png)
+
+
+### Bootswatch Lumen (v3.2.0)
+
+```
+bootswatch: lumen
+```
+
+![](source/img/example/lumen.png)
+
+
+### Bootswatch Readable (v3.2.0)
+
+```
+bootswatch: readable
+```
+
+![](source/img/example/readable.png)
+
+
+### Bootswatch Simplex (v3.2.0)
+
+```
+bootswatch: simplex
+```
+
+![](source/img/example/simplex.png)
+
+
+### Bootswatch Space Lab (v3.2.0)
+
+```
+bootswatch: spacelab
+```
+
+![](source/img/example/spacelab.png)
+
+
+### Bootswatch United (v3.2.0)
+
+```
+bootswatch: united
+```
+
+![](source/img/example/united.png)
+
+### Bootswatch Yeti (v3.2.0)
+
+```
+bootswatch: yeti
+```
+
+![](source/img/example/yeti.png)
+
+
 
 ## Install
 
