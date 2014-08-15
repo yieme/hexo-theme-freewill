@@ -30,37 +30,6 @@ body {
 }
 
 /* =============================================================================
-   page, post
-   ========================================================================== */
-
-.post{
-  font-size: 1.2em;
-}
-
-.page{
-  font-size: 16px;
-}
-
-.page, .post{
-/*  line-height: 1.5em;
-  font-family: "Helvetica","Helvetica Neue", "Microsoft YaHei", "WenQuanYi Micro Hei",Arial, sans-serif; */
-}
-
-.page .more {
-  text-pull: right;
-}
-
-.post .date {
-  margin-bottom:20px;
-  font-weight:bold;
-}
-
-.mypage {
-  padding-bottom: 30px;
-  border-bottom: 1px solid #ccc;
-}
-
-/* =============================================================================
    navbar
    ========================================================================== */
 
@@ -252,20 +221,19 @@ h1,h2,h3,h4,h5,h6 {
 
 .page h3.title {
   position:relative;
-  padding: 2px 5px 5px 5px;
+/*  padding: 2px 5px 5px 5px;
   border-top:1px solid #ccc;
   font-size: 1.9em;
   font-weight: normal;
   background-color: #e5e5e5;
-  border-radius:3px;
-
+  border-radius:3px; */
 }
 
 .page h3.title span.date {
   position:absolute;
   right:5px;
   font-size:0.7em;
-  color: #777;
+/*  color: #777; */
 }
 
 /* =============================================================================
@@ -291,11 +259,6 @@ h1,h2,h3,h4,h5,h6 {
 .post .date {
   margin-bottom:20px;
   font-weight:bold;
-}
-
-.mypage {
-  padding-bottom: 30px;
-  border-bottom: 1px solid #ccc;
 }
 
 

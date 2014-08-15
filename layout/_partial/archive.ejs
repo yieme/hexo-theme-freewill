@@ -12,9 +12,12 @@
    var is_first_year = 1;
    %>
 
-<!-- title -->
+<!-- archive.title -->
 <div class="page-header">
-  <h1 class="archive-title<% if (page.tag){ %>-tag<% } else if (page.category){ %>-category<% } %>"><%= title %></h1>
+  <h1 class="archive-title<%
+    if (page.tag){ %>-tag archive-title-<%= page.tag %><% } 
+    else if (page.category){ %>-category<% }
+    %>"><%= title %></h1>
 </div>
 
 <div class="row page">

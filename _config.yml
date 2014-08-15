@@ -1,4 +1,4 @@
-slogan: "Yet another bootstrap theme."
+slogan: "A bootswatch theme."
 
 menu:
   - title: Archives
@@ -13,10 +13,6 @@ menu:
     url: tags
     intro: "All the tags."
     icon: "fa fa-tags"
-  - title: About
-    url: about
-    intro: "About me."
-    icon: "fa fa-user"
 
 links:
   - title: Freemind
