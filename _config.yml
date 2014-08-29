@@ -1,3 +1,5 @@
+bootswatch: cerulean
+
 slogan: "A bootswatch theme."
 
 menu:
@@ -31,8 +33,7 @@ widgets:
 - recent_posts
 - links
 
-rss:
+rss: true
 fancybox: true
 favicon: favicon.png
-bootswatch: cerulean
 google_analytics:
