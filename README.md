@@ -25,6 +25,7 @@ bootswatch:
 
 ![](source/img/example/bootstrap.png)
 
+---
 
 ### Bootswatch Cerulean (v3.2.0)
 
@@ -34,6 +35,7 @@ bootswatch: cerulean
 
 ![](source/img/example/cerulean.png)
 
+---
 
 ### Bootswatch Flatly (v3.2.0)
 
@@ -43,6 +45,7 @@ bootswatch: flatly
 
 ![](source/img/example/flatly.png)
 
+---
 
 ### Bootswatch Journal (v3.2.0)
 
@@ -52,6 +55,7 @@ bootswatch: journal
 
 ![](source/img/example/journal.png)
 
+---
 
 ### Bootswatch Lumen (v3.2.0)
 
@@ -61,6 +65,7 @@ bootswatch: lumen
 
 ![](source/img/example/lumen.png)
 
+---
 
 ### Bootswatch Readable (v3.2.0)
 
@@ -70,6 +75,7 @@ bootswatch: readable
 
 ![](source/img/example/readable.png)
 
+---
 
 ### Bootswatch Simplex (v3.2.0)
 
@@ -79,6 +85,7 @@ bootswatch: simplex
 
 ![](source/img/example/simplex.png)
 
+---
 
 ### Bootswatch Space Lab (v3.2.0)
 
@@ -88,6 +95,7 @@ bootswatch: spacelab
 
 ![](source/img/example/spacelab.png)
 
+---
 
 ### Bootswatch United (v3.2.0)
 
@@ -97,6 +105,8 @@ bootswatch: united
 
 ![](source/img/example/united.png)
 
+---
+
 ### Bootswatch Yeti (v3.2.0)
 
 ```
@@ -105,7 +115,7 @@ bootswatch: yeti
 
 ![](source/img/example/yeti.png)
 
-
+---
 
 ## Install
 
